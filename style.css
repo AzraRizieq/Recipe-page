@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+}
+
+h1, h2{
+    font-family: "Young Serif", serif;
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.box {
+    border: 1px solid hsl(330, 100%, 98%);
+    border-radius: 12px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+.rose800 {
+    color: hsl(332, 51%, 32%);
+}
+
+.brown800 {
+    color: hsl(14, 45%, 36%);
+}
+
+.card {
+    width: 700px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.item {
+  display: flex;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.label {
+    width: 320px;
+}
+
+.value {
+  text-align: right;
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
